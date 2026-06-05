@@ -6,15 +6,14 @@ function playPodcast(title, artist, gradientColor) {
     const playerThumb = document.getElementById('player-track-thumb');
     const playBtnIcon = document.getElementById('main-play-btn').querySelector('i');
 
-    // Title aur Artist ko update karne ke liye
     playerTitle.innerText = title;
     playerArtist.innerText = artist;
     
-    // Background rang badalne aur purane musical icon ko hatane ke liye
+    // Gradient color change hoga aur default music note icon automatic gayab ho jayegi
     playerThumb.style.background = gradientColor;
     playerThumb.innerHTML = ""; 
     
-    // Choti si smooth pop animation ke liye
+    // Smooth micro-interaction pop effect
     playerThumb.style.transform = "scale(1.05)";
     setTimeout(() => { playerThumb.style.transform = "scale(1)"; }, 200);
 
