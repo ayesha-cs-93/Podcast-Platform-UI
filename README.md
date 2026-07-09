@@ -20,7 +20,7 @@ A modern, responsive podcast streaming platform interface built with HTML, CSS, 
 
 ## 📸 Preview
 
-*(Add a screenshot of the homepage here)*
+![PodStream Preview](preview.png)
 
 ## 🚀 Getting Started
 
